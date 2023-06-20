@@ -1,0 +1,90 @@
+h1 {
+	color: blue;
+}
+body {
+	margin: 30px;
+	background-color: red;
+}
+.primer {
+	width: 300px;
+	background-color: yellowgreen;
+
+}
+.segundo {
+	width: 300px;
+	background-color: yellow;	
+
+}
+
+button {
+	width: 10em;
+}
+
+p {
+	display: block;
+}
+
+li {
+	background-color: whitesmoke;
+	margin: 1rem;
+	padding: 1rem;
+	width: 3rem;
+	display: inline-block;
+}
+
+.EjercicioDeCajas {
+	height: 50rem;
+	width: 65rem;
+	background-color: black;
+	border: dotted;
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.caja {
+	height: 100px;
+	width: 100px;
+}
+
+.Rojo {
+	background-color: red;
+}
+
+.Azul {
+	background-color: blue;
+}
+
+.Verde {
+	background-color: lightgreen;
+}
+
+.Naranja {
+	background-color: orange;
+}
+
+.Amarillo {
+	background-color: yellow;
+}
+
+.Negro {
+	background-color: black;
+}
+
+.Otro {
+	background-color: yellowgreen;
+}
+
+.Otro1 {
+	background-color: greenyellow;
+}
+
+.Otro2 {
+	background-color: darkred;
+	flex-grow: 1;
+}
+
+.Otro3 {
+	background-color: indianred;
+}
