@@ -1,0 +1,41 @@
+
+
+body {
+	margin: 30px;
+	background-color: #Ebf2f3;
+}
+
+.header {
+	background-color: black;
+}
+.logo {
+	
+	background-color: ;
+	float: left;
+
+}
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	float: right;
+
+}
+
+ul li {
+	background-color: #C1d0d2;
+	display: inline-block;
+	margin: 25px;
+}
+
+ul li a {
+	text-decoration: none;
+}
+
+h1 {
+	color: #545858;
+}
+h2{
+	color: #565bc2;
+}

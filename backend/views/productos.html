@@ -1,0 +1,58 @@
+<html>
+<head>
+    <title>Productos</title>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body>
+
+
+    <section class="formulario">
+
+    <form id="alta_producto" method="post">
+
+<h1>Formulario de altas de productos</h1>
+    
+    <div>
+  <label for="fname">Producto:</label><br>
+  <input type="text" id="fname" name="fname" class="input_text" required autocomplete="off" placeholder="producto"><br>
+</div>
+
+<div>
+<label for="cat_productos">Selecciona una categoria:</label>
+
+<select name="cat_productos" id="cat_productos">
+
+  <option disabled =""selected="">(seleccione)</option>  
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+</select>
+</div>
+
+<div>
+  <label for="img">Imagen:</label><br>
+  <input type="file" id="img" name="img_producto" class="input_text"><br>
+</div>
+<div>
+<button id="btn_cancelar" class="btn" type="button">Cancelar</button>
+<button id="btn_guardar" class="btn" type="submit">Guardar</button><br>
+</div>
+
+</form>
+
+<h2>Maria Constanza Villagran</h2>
+</section>  
+<div>
+<button id="btn_guardar" class="btn" type="submit"><a href="../../views/index.html"><h2>Volver a Inicio</h2></a></button>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"              integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="              crossorigin="anonymous"></script>
+<script src="../../assets/js/validaciones.js"></script>
+
+</body>
+
+
+</html>
